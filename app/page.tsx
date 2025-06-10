@@ -52,7 +52,7 @@ export default function Home() {
                 <section className="relative min-h-screen flex items-center">
                     <div className="max-w-7xl mx-auto px-6 lg:px-8 w-full">
                         <div className="max-w-4xl">
-                            <h1 className="font-heading text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-emerald-100 to-orange-300 leading-tight tracking-tight mb-8">
+                            <h1 className="text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-emerald-100 to-orange-300 leading-tight tracking-tight mb-8">
                                 <span className="text-gradient bg-gradient-to-r from-emerald-400 via-orange-400 to-orange-600 bg-clip-text text-transparent">We Make Games</span>
                             </h1>
                             <p className="font-body text-2xl text-emerald-200/90 font-light leading-relaxed mb-12 max-w-2xl">
