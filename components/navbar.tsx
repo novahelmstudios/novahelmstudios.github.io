@@ -2,7 +2,7 @@ import { FaItchIo, FaInstagram, FaYoutube, FaDiscord, FaPatreon } from 'react-ic
 
 export default function Navbar() {
     return (
-        <nav className="fixed top-16 left-0 w-full z-50 border-emerald-400/20">
+        <nav className="fixed top-16 left-0 w-full z-50 border-emerald-400/20 select-none">
             <div className="max-w-7xl mx-auto px-2 lg:px-8 h-20 flex items-center">
 
                 <a href='/' className="flex-shrink-0">
