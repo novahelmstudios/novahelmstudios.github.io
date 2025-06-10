@@ -8,7 +8,13 @@ importers:
 
   .:
     dependencies:
+      '@fontsource/inter':
+        specifier: ^5.2.6
+        version: 5.2.6
       '@fontsource/kumbh-sans':
+        specifier: ^5.2.6
+        version: 5.2.6
+      '@fontsource/orbitron':
         specifier: ^5.2.6
         version: 5.2.6
       '@fontsource/oswald':
@@ -62,8 +68,14 @@ packages:
   '@emnapi/runtime@1.4.3':
     resolution: {integrity: sha512-pBPWdu6MLKROBX05wSNKcNb++m5Er+KQ9QkB+WVM+pW2Kx9hoSrVTnu3BdkI5eBLZoKu/J6mW/B6i6bJB2ytXQ==}
 
+  '@fontsource/inter@5.2.6':
+    resolution: {integrity: sha512-CZs9S1CrjD0jPwsNy9W6j0BhsmRSQrgwlTNkgQXTsAeDRM42LBRLo3eo9gCzfH4GvV7zpyf78Ozfl773826csw==}
+
   '@fontsource/kumbh-sans@5.2.6':
     resolution: {integrity: sha512-WibTH5gPJEpctFZ45bqXqgOhwa4eoe7l3KwifQ86kI5OkNCQUH0/FmIitsBauHB6arpJgs6lt10p0pB/FW4zEQ==}
+
+  '@fontsource/orbitron@5.2.6':
+    resolution: {integrity: sha512-m6lI9jsts7Wk1gyMysEJSexkrZAqxDZ3DjTKMo4PJPKrYA3i//9iUp1Zy5NggPL6zyfQNbfpZwjtX9lrA3Zd3Q==}
 
   '@fontsource/oswald@5.2.6':
     resolution: {integrity: sha512-2rMxNdRrTjuhz2alrqMgOR45HOdxcLdzHYTdmque2idEH7TmG7fsYEpRr3qCL3TFpInr5OygAYvTEGWBy2d06g==}
@@ -621,7 +633,11 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
+  '@fontsource/inter@5.2.6': {}
+
   '@fontsource/kumbh-sans@5.2.6': {}
+
+  '@fontsource/orbitron@5.2.6': {}
 
   '@fontsource/oswald@5.2.6': {}
 
