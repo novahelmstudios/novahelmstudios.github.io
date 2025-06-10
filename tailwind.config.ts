@@ -1,5 +1,13 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-    content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
-    plugins: [],
-};
+module.exports = {
+  content: [
+    './src/**/*.{js,ts,jsx,tsx,html}', // adjust based on your structure
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        oswald: ['Oswald', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+}
