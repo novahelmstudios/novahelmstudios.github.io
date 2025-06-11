@@ -42,19 +42,15 @@ section {
 .sword-underline::after {
     content: '';
     position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 20px;
+    left: -2;
+    bottom: -27px;
+    height: 48;
     width: 0;
-    background-image: url('sword.png');
+    background-image: url("../public/sword.png");
     background-repeat: no-repeat;
-    background-size: contain;
     background-position: left center;
-    background-size: contain;
-    background-position: left center;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.4s ease-out;
+    background-size: 48px;
+    transition: width 0.4s ease-out;
 }
 
 .sword-underline:hover::after {

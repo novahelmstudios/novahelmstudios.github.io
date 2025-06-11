@@ -11,17 +11,14 @@ export default function Navbar() {
 
                 <div className="flex-1 flex justify-center">
                     <div className="hidden md:flex items-center space-x-12">
-                        <a href="/about" className="relative font-medium tracking-wide group text-md sword-underline">
+                        <a href="/about" className="relative text-emerald-100 hover:text-emerald-300 font-medium tracking-wide transition-all duration-300 group text-md sword-underline">
                             About
-                            <div className="absolute -bottom-2 left-0 w-0 h-0.5 bg-gradient-to-r from-emerald-400 to-orange-300 group-hover:w-full transition-all duration-300" />
                         </a>
-                        <a href="/projects" className="relative text-emerald-100 hover:text-emerald-300 font-medium tracking-wide transition-all duration-300 group text-md">
+                        <a href="/projects" className="relative text-emerald-100 hover:text-emerald-300 font-medium tracking-wide transition-all duration-300 group text-md sword-underline">
                             Projects
-                            <div className="absolute -bottom-2 left-0 w-0 h-0.5 bg-gradient-to-r from-emerald-400 to-orange-300 group-hover:w-full transition-all duration-300" />
                         </a>
-                        <a href="/studio" className="relative text-emerald-100 hover:text-emerald-300 font-medium tracking-wide transition-all duration-300 group text-md">
+                        <a href="/studio" className="relative text-emerald-100 hover:text-emerald-300 font-medium tracking-wide transition-all duration-300 group text-md sword-underline">
                             Studio
-                            <div className="absolute -bottom-2 left-0 w-0 h-0.5 bg-gradient-to-r from-emerald-400 to-orange-300 group-hover:w-full transition-all duration-300" />
                         </a>
                     </div>
                 </div>
