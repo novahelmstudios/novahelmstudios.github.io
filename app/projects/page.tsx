@@ -26,7 +26,6 @@ export default function Project() {
         },
     ];
 
-
     return (
         <>
             <div className="h-screen flex items-center select-none">

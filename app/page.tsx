@@ -11,7 +11,7 @@ export default function Home() {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-6">
                         <a
-                            href="/studio"
+                            href="/projects"
                             className="group relative inline-flex items-center justify-center px-5 py-3 text-md font-semibold text-white bg-gradient-to-r from-emerald-500 to-emerald-600 rounded-xl shadow-2xl transition-all duration-300 hover:from-emerald-400 hover:to-emerald-500 hover:shadow-orange-500/45 hover:-translate-y-1"
                         >
                             <span className="relative z-10">Explore Our Games</span>

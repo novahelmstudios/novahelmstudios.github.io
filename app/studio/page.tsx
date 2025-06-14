@@ -2,7 +2,7 @@ export default function Studio() {
     return (
         <>
 
-            <div className="h-screen flex items-center mt-15 select-none">
+            <div className="h-screen flex items-center mt-4 select-none">
                 <div className="max-w-5xl mx-auto px-6 w-full">
                     {/* Main Header */}
                     <div className="mb-16">
