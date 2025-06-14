@@ -2,16 +2,16 @@ export default function Studio() {
     return (
         <>
 
-            <div className="relative min-h-screen flex items-center mt-15 select-none">
-                <div className="max-w-6xl mx-auto px-6 w-full">
+            <div className="h-screen flex items-center mt-15 select-none">
+                <div className="max-w-5xl mx-auto px-6 w-full">
                     {/* Main Header */}
                     <div className="mb-16">
-                        <h1 className="text-6xl inline-block font-bold bg-gradient-to-r from-emerald-400 to-orange-400 text-transparent bg-clip-text mb-6">Studio</h1>
+                        <h1 className="text-4xl inline-block font-bold bg-gradient-to-r from-emerald-400 to-orange-400 text-transparent bg-clip-text mb-6">Studio</h1>
                         <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-orange-400"></div>
                     </div>
 
                     <div className="mb-16">
-                        <p className="text-lg leading-relaxed text-gray-300 font-light max-w-3xl">
+                        <p className="text-md leading-relaxed text-gray-300 font-light max-w-3xl">
                             <span className="block mb-4">
                                 <strong className="text-white">NovaHelm</strong> is a dev-first studio where the stack is hand-built, inspected, and fully controlled.
                                 We believe in a simple principle: <em>"Own your stack, or your stack owns you."</em>

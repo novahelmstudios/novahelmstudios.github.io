@@ -29,10 +29,10 @@ export default function Project() {
 
     return (
         <>
-            <div className="relative min-h-screen flex items-center select-none">
-                <div className="max-w-6xl mx-auto px-6 w-ful mt-30">
+            <div className="h-screen flex items-center select-none">
+                <div className="max-w-5xl mx-auto mt-30">
                     <div className="mb-16">
-                        <h1 className="text-6xl inline-block font-bold bg-gradient-to-r from-emerald-400 to-orange-400 text-transparent bg-clip-text mb-6">
+                        <h1 className="text-4xl inline-block font-bold bg-gradient-to-r from-emerald-400 to-orange-400 text-transparent bg-clip-text mb-6">
                             Our Projects
                         </h1>
                         <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-orange-400"></div>
@@ -50,10 +50,10 @@ export default function Project() {
                                     {/* Project Content */}
                                     <div className="space-y-4">
                                         <div>
-                                            <h3 className="text-xl font-bold text-white mb-2 group-hover:bg-gradient-to-r group-hover:from-emerald-400 group-hover:to-orange-400 group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
+                                            <h3 className="text-md font-bold text-white mb-2 group-hover:bg-gradient-to-r group-hover:from-emerald-400 group-hover:to-orange-400 group-hover:text-transparent group-hover:bg-clip-text transition-all duration-300">
                                                 {project.title}
                                             </h3>
-                                            <p className="text-sm text-gray-400 font-medium mb-3">
+                                            <p className="text-xs text-gray-400 font-medium mb-3">
                                                 {project.category}
                                             </p>
                                         </div>
@@ -64,10 +64,10 @@ export default function Project() {
 
                                         {/* Hover Overlay */}
                                         <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                            <div className="mt-4 pt-4 border-t border-gray-700/50">
+                                            <div className="mt-4 pt-4 border-t border-slate-700/50">
                                                 <a
                                                     href={project.link}
-                                                    className="inline-block text-sm font-medium bg-gradient-to-r from-emerald-400 to-orange-400 text-transparent bg-clip-text hover:from-emerald-300 hover:to-orange-300 transition-all duration-200"
+                                                    className="block text-sm font-medium bg-gradient-to-r from-emerald-400 to-orange-400 text-transparent bg-clip-text hover:from-emerald-300 hover:to-orange-300 transition-all duration-200"
                                                 >
                                                     Learn More →
                                                 </a>
