@@ -6,7 +6,7 @@ export default function Navbar() {
             <div className="max-w-7xl px-8 mx-auto h-20 flex items-center">
 
                 <a href='/'>
-                    <img src="/logo.svg" alt="Novahelm Studios" className="h-12 w-auto" />
+                    <img src="/logo.png" alt="Novahelm Studios" className="h-8 w-auto" />
                 </a>
 
                 <div className="flex-1 flex justify-center">
