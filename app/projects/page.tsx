@@ -2,7 +2,7 @@ export default function Project() {
     const projects = [
         {
            title: "Genesis",
-            description: "A high-octane cyberpunk racing game featuring stunning neon visuals and adaptive AI opponents. Experience the thrill of street racing in a dystopian future.",
+            description: " modular C++ game engine built with OpenGL, GLFW, and FreeType. Designed for real-time rendering, input handling, and extensible game architecture",
             category: "Platformer",
             link: "https://github.com/novahelmstudios/genesis"
         },
