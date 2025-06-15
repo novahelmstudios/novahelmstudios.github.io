@@ -2,22 +2,22 @@ import { FaItchIo, FaInstagram, FaYoutube, FaDiscord, FaPatreon } from 'react-ic
 
 export default function Navbar() {
     return (
-        <nav className="relative top-16 left-0 w-full z-50 border-emerald-400/20 select-none">
-            <div className="max-w-7xl mx-auto px-2 lg:px-8 h-20 flex items-center">
+        <nav className="relative top-15 left-0 w-full z-50 select-none">
+            <div className="max-w-7xl px-8 mx-auto h-20 flex items-center">
 
-                <a href='/' className="flex-shrink-0">
-                    <img src="/logo.png" alt="Novahelm Studios" className="h-32 w-auto" />
+                <a href='/'>
+                    <img src="/logo.svg" alt="Novahelm Studios" className="h-12 w-auto" />
                 </a>
 
                 <div className="flex-1 flex justify-center">
-                    <div className="hidden md:flex items-center space-x-12">
-                        <a href="/about" className="relative text-emerald-100 hover:text-emerald-300 font-medium tracking-wide transition-all duration-300 group text-md sword-underline">
+                    <div className="flex items-center space-x-12">
+                        <a href="/about"    className="relative text-emerald-100 hover:text-emerald-300 font-medium tracking-wide transition-all duration-300 group text-md sword-underline">
                             About
                         </a>
                         <a href="/projects" className="relative text-emerald-100 hover:text-emerald-300 font-medium tracking-wide transition-all duration-300 group text-md sword-underline">
                             Projects
                         </a>
-                        <a href="/studio" className="relative text-emerald-100 hover:text-emerald-300 font-medium tracking-wide transition-all duration-300 group text-md sword-underline">
+                        <a href="/studio"   className="relative text-emerald-100 hover:text-emerald-300 font-medium tracking-wide transition-all duration-300 group text-md sword-underline">
                             Studio
                         </a>
                     </div>
