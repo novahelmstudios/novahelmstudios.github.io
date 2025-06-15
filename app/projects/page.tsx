@@ -1,28 +1,10 @@
 export default function Project() {
     const projects = [
         {
-            title: "Neon Drift",
+           title: "Genesis",
             description: "A high-octane cyberpunk racing game featuring stunning neon visuals and adaptive AI opponents. Experience the thrill of street racing in a dystopian future.",
-            status: "Released",
-            category: "Racing",
-            gradient: "from-purple-400 to-pink-400",
-            link: "#"
-        },
-        {
-            title: "Echoes of the Void",
-            description: "An atmospheric puzzle-adventure game where players manipulate sound waves to solve mysteries in an abandoned space station.",
-            status: "In Development",
-            category: "Puzzle Adventure",
-            gradient: "from-blue-400 to-indigo-400",
-            link: "#"
-        },
-        {
-            title: "Forge Masters",
-            description: "A strategic resource management game where players build and manage medieval forges, crafting legendary weapons and armor.",
-            status: "Beta Testing",
-            category: "Strategy",
-            gradient: "from-amber-400 to-orange-400",
-            link: "#"
+            category: "Platformer",
+            link: "https://github.com/novahelmstudios/genesis"
         },
     ];
 
@@ -67,6 +49,8 @@ export default function Project() {
                                                 <a
                                                     href={project.link}
                                                     className="block text-sm font-medium bg-gradient-to-r from-emerald-400 to-orange-400 text-transparent bg-clip-text hover:from-emerald-300 hover:to-orange-300 transition-all duration-200"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
                                                 >
                                                     Learn More →
                                                 </a>
