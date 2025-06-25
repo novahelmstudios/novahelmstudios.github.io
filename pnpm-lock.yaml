@@ -20,9 +20,6 @@ importers:
       '@fontsource/oswald':
         specifier: ^5.2.6
         version: 5.2.6
-      '@netlify/plugin-nextjs':
-        specifier: ^5.11.4
-        version: 5.11.4
       lucide-react:
         specifier: ^0.514.0
         version: 0.514.0(react@19.1.0)
@@ -223,10 +220,6 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
-
-  '@netlify/plugin-nextjs@5.11.4':
-    resolution: {integrity: sha512-hJJthlDU76wn1vuOF48GiYx7HLhSK0u9xJU7N4BSmOjc741zvI5NgfWlQwfPOydp5OOuoxPDXxbZj9EttBycPw==}
-    engines: {node: '>=18.0.0'}
 
   '@next/env@15.3.3':
     resolution: {integrity: sha512-OdiMrzCl2Xi0VTjiQQUK0Xh7bJHnOuET2s+3V+Y40WJBAXrJeGA3f+I8MZJ/YQ3mVGi5XGR1L66oFlgqXhQ4Vw==}
@@ -757,8 +750,6 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
-
-  '@netlify/plugin-nextjs@5.11.4': {}
 
   '@next/env@15.3.3': {}
 
