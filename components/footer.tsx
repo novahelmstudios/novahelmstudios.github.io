@@ -11,6 +11,7 @@ export default function Footer() {
                     <a href="/about" className="hover:text-white transition-colors duration-150">About</a>
                     <a href="/projects" className="hover:text-white transition-colors duration-150">Projects</a>
                     <a href="/studio" className="hover:text-white transition-colors duration-150">Studio</a>
+                    <a href="/career" className="hover:text-white transition-colors duration-150">Career</a>
                 </div>
 
                 <div className="text-sm">
