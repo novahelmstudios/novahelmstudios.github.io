@@ -1,10 +1,16 @@
 export default function Project() {
     const projects = [
         {
-           title: "Genesis",
+            title: "Genesis",
             description: " modular C++ game engine built with OpenGL, GLFW, and FreeType. Designed for real-time rendering, input handling, and extensible game architecture",
             category: "Platformer",
             link: "https://github.com/novahelmstudios/genesis"
+        },
+        {
+            title: "BadBot",
+            description: " A drone shooter made in Unreal Engine 5. Featuring AI, homing missiles, and boss battles. A fast-paced action game with a focus on combat and exploration.",
+            category: "Space Shooter",
+            link: "https://github.com/novahelmstudios/badbot"
         },
     ];
 
