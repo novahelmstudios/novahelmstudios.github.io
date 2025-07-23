@@ -8,10 +8,16 @@ export default function Project() {
         },
         {
             title: "BadBot",
-            description: " A drone shooter made in Unreal Engine 5. Featuring AI, homing missiles, and boss battles. A fast-paced action game with a focus on combat and exploration.",
+            description: " A drone shooter made in Unreal Engine 5. Featuring enemy AI, homing missiles, and boss battles. A fast-paced action game with a focus on combat and exploration.",
             category: "Space Shooter",
             link: "https://github.com/novahelmstudios/badbot"
         },
+        {
+            title: "Evil Bela",
+            description: "Currently in development, Evil Bela is a narrative-driven psychological survival horror game. It features a gripping story, immersive atmosphere, and challenging gameplay.",
+            category: "Psychological Survival Horror",
+            link: "https://github.com/novahelmstudios/evilbela"
+        }
     ];
 
     return (
