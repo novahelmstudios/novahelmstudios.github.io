@@ -6,41 +6,41 @@ import { Gamepad2, ArrowRight, Mail, Users, FolderOpen } from "lucide-react";
 
 export default function Home() {
     return (
-        <div className="px-6 py-16 sm:py-20 lg:py-24">
-            <section className="mx-auto flex min-h-[calc(100vh-7rem)] max-w-7xl items-center">
-                <div className="grid w-full gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+        <div className="px-4 py-10 sm:px-6 sm:py-16 lg:py-24">
+            <section className="mx-auto flex min-h-0 max-w-7xl items-start py-6 sm:min-h-[calc(100vh-7rem)] sm:items-center sm:py-0">
+                <div className="grid w-full gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:gap-12">
                     <div>
-                        <p className="mb-5 inline-flex rounded-full border border-emerald-400/20 bg-black/20 px-4 py-2 text-sm text-emerald-100/90 backdrop-blur-sm">
+                        <p className="mb-4 inline-flex max-w-full rounded-full border border-emerald-400/20 bg-black/20 px-4 py-2 text-xs font-medium leading-none text-emerald-100/90 backdrop-blur-sm sm:mb-5 sm:text-sm">
                             Indie games built with narrative, systems, and care
                         </p>
-                        <h1 className="max-w-4xl text-5xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-emerald-100 to-orange-300 sm:text-6xl lg:text-7xl leading-tight mb-6">
+                        <h1 className="max-w-4xl text-4xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-emerald-100 to-orange-300 sm:text-5xl lg:text-7xl leading-tight mb-5 sm:mb-6">
                             We make games that are easy to discover and hard to forget.
                         </h1>
-                        <p className="max-w-3xl text-lg sm:text-xl lg:text-2xl text-emerald-50/90 font-light leading-relaxed mb-10">
+                        <p className="max-w-3xl text-base sm:text-lg lg:text-2xl text-emerald-50/90 font-light leading-relaxed mb-8 sm:mb-10">
                             Novahelm Studios creates immersive indie experiences with clear goals, strong atmosphere, and gameplay that respects your time.
                         </p>
 
-                        <div className="flex flex-col gap-4 sm:flex-row">
+                        <div className="flex flex-col gap-3 sm:flex-row sm:gap-4">
                             <Link
                                 href="/projects"
-                                className="group relative inline-flex items-center justify-center gap-3 rounded-2xl bg-gradient-to-r from-emerald-500 to-emerald-600 px-8 py-4 text-lg font-semibold text-white shadow-2xl shadow-emerald-950/20 transition-all duration-300 hover:from-emerald-400 hover:to-emerald-500 hover:-translate-y-0.5"
+                                className="group relative inline-flex w-full items-center justify-center gap-3 rounded-2xl bg-gradient-to-r from-emerald-500 to-emerald-600 px-8 py-4 text-base font-semibold text-white shadow-2xl shadow-emerald-950/20 transition-all duration-300 hover:from-emerald-400 hover:to-emerald-500 hover:-translate-y-0.5 sm:w-auto sm:text-lg"
                             >
                                 <Gamepad2 className="h-5 w-5 transition-transform group-hover:-translate-y-0.5" />
                                 Explore Projects
                             </Link>
                             <Link
                                 href="/contact"
-                                className="group inline-flex items-center justify-center gap-3 rounded-2xl border-2 border-emerald-400/30 px-8 py-4 text-lg font-medium text-emerald-100 transition-all duration-300 hover:border-orange-400/50 hover:bg-orange-400/10 hover:text-orange-100"
+                                className="group inline-flex w-full items-center justify-center gap-3 rounded-2xl border-2 border-emerald-400/30 px-8 py-4 text-base font-medium text-emerald-100 transition-all duration-300 hover:border-orange-400/50 hover:bg-orange-400/10 hover:text-orange-100 sm:w-auto sm:text-lg"
                             >
                                 <Mail className="h-5 w-5 transition-transform group-hover:-translate-y-0.5" />
                                 Contact Us
                             </Link>
                         </div>
 
-                        <div className="mt-6 flex flex-wrap gap-3 text-sm text-emerald-100/80">
-                            <span className="rounded-full border border-white/10 bg-black/20 px-4 py-2 backdrop-blur-sm">Narrative-first</span>
-                            <span className="rounded-full border border-white/10 bg-black/20 px-4 py-2 backdrop-blur-sm">Playable prototypes</span>
-                            <span className="rounded-full border border-white/10 bg-black/20 px-4 py-2 backdrop-blur-sm">Under active development</span>
+                        <div className="mt-5 flex flex-wrap gap-2 text-xs text-emerald-100/80 sm:mt-6 sm:gap-3 sm:text-sm">
+                            <span className="rounded-full border border-white/10 bg-black/20 px-3 py-2 backdrop-blur-sm sm:px-4">Narrative-first</span>
+                            <span className="rounded-full border border-white/10 bg-black/20 px-3 py-2 backdrop-blur-sm sm:px-4">Playable prototypes</span>
+                            <span className="rounded-full border border-white/10 bg-black/20 px-3 py-2 backdrop-blur-sm sm:px-4">Under active development</span>
                         </div>
                     </div>
 
