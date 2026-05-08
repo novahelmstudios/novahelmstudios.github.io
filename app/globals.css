@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
 @import "tailwindcss";
-@import "@fontsource/inter/index.css";
-@import "@fontsource/orbitron/index.css";
 
 :root {
     --background: #ffffff;
     --foreground: #171717;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,20 +20,40 @@
 body {
     background: var(--background);
     color: var(--foreground);
+    font-family: "Inter", sans-serif;
 
     background-image: url('../public/bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    transform-origin: center;
+    background-attachment: scroll;
     min-height: 100vh;
 }
 
-h1,
-p,
-section {
-    font-family: "Inter", sans-serif;
+a,
+button {
+    transition: color 150ms ease, border-color 150ms ease, background-color 150ms ease, transform 150ms ease;
+}
+
+:focus-visible {
+    outline: 2px solid #34d399;
+    outline-offset: 3px;
+}
+
+.skip-link {
+    position: absolute;
+    left: 1rem;
+    top: -4rem;
+    z-index: 60;
+    border-radius: 9999px;
+    background: #0f172a;
+    color: #f8fafc;
+    padding: 0.75rem 1rem;
+    transition: top 150ms ease;
+}
+
+.skip-link:focus {
+    top: 1rem;
 }
 
 .sword-underline {
@@ -42,9 +65,9 @@ section {
 .sword-underline::after {
     content: '';
     position: absolute;
-    left: -2;
+    left: -2px;
     bottom: -27px;
-    height: 48;
+    height: 48px;
     width: 0;
     background-image: url("../public/sword.png");
     background-repeat: no-repeat;
@@ -55,4 +78,15 @@ section {
 
 .sword-underline:hover::after {
     width: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
 }

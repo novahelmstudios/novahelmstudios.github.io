@@ -1,21 +1,24 @@
+import Link from "next/link";
+
 export default function Footer() {
     return (
         <footer className="bg-black/15 backdrop-blur-sm text-gray-400 py-8 select-none">
-            <div className="max-w-6xl mx-auto flex flex-row justify-between items-center space-y-4 md:space-y-0">
+            <div className="mx-auto max-w-6xl px-6 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
                 <div className="text-sm">
-                    © {new Date().getFullYear()} <span className="text-white font-semibold">Novahelm Studios</span>. All rights reserved.
+                    © {new Date().getFullYear()} <span className="text-white font-semibold">NovaHelm Studios</span>. All rights reserved.
                 </div>
 
-                <div className="flex space-x-6 text-sm">
-                    <a href="/" className="hover:text-white transition-colors duration-150">Home</a>
-                    <a href="/about" className="hover:text-white transition-colors duration-150">About</a>
-                    <a href="/projects" className="hover:text-white transition-colors duration-150">Projects</a>
-                    <a href="/studio" className="hover:text-white transition-colors duration-150">Studio</a>
-                    <a href="/career" className="hover:text-white transition-colors duration-150">Career</a>
+                <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
+                    <Link href="/" className="hover:text-white focus-visible:text-white transition-colors duration-150">Home</Link>
+                    <Link href="/about" className="hover:text-white focus-visible:text-white transition-colors duration-150">About</Link>
+                    <Link href="/projects" className="hover:text-white focus-visible:text-white transition-colors duration-150">Projects</Link>
+                    <Link href="/studio" className="hover:text-white focus-visible:text-white transition-colors duration-150">Studio</Link>
+                    <Link href="/careers" className="hover:text-white focus-visible:text-white transition-colors duration-150">Careers</Link>
+                    <Link href="/contact" className="hover:text-white focus-visible:text-white transition-colors duration-150">Contact</Link>
                 </div>
 
                 <div className="text-sm">
-                    <a href="mailto:novahelmstudios@gmail.com" className="bg-gradient-to-r from-emerald-400 to-orange-400 text-transparent bg-clip-text hover:underline">
+                    <a href="mailto:novahelmstudios@gmail.com" className="bg-gradient-to-r from-emerald-400 to-orange-400 text-transparent bg-clip-text hover:underline focus-visible:underline">
                         novahelmstudios@gmail.com
                     </a>
                 </div>

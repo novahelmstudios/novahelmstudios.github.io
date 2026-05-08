@@ -1,72 +1,44 @@
 export default function Careers() {
     return (
-        <>
-            <div className="min-h-screen text-gray-300 px-6 mt-35 select-none">
-                <div className="max-w-6xl mx-auto">
-                    {/* Header */}
-                    <div className="mb-16">
-                        <h1 className="text-6xl font-bold bg-gradient-to-r from-emerald-400 to-orange-400 text-transparent bg-clip-text mb-4">
-                            Careers
-                        </h1>
-                        <div className="w-24 h-1 bg-gradient-to-r from-emerald-400 to-orange-400"></div>
-                    </div>
+        <section className="min-h-[calc(100vh-7rem)] px-6 py-20 text-gray-300 flex items-center">
+            <div className="mx-auto w-full max-w-6xl">
+                <div className="mb-12">
+                    <p className="mb-4 text-sm uppercase tracking-[0.35em] text-emerald-200/70">Careers</p>
+                    <h1 className="mb-4 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-orange-400 sm:text-6xl">
+                        Careers
+                    </h1>
+                    <div className="h-1 w-24 bg-gradient-to-r from-emerald-400 to-orange-400" />
+                </div>
 
-                    {/* Intro */}
-                    <div className="mb-12 max-w-3xl text-lg leading-relaxed">
-                        <p className="mb-4">
-                            NovaHelm isn’t hiring for paper titles. We’re looking for engineers who understand systems, write tight code,
-                            and take responsibility for their tools. If you think in terms of memory, input latency, render time, or
-                            network payloads—we’re listening.
+                <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr]">
+                    <div className="rounded-3xl border border-white/10 bg-black/25 p-8 backdrop-blur-xl">
+                        <p className="mb-4 text-lg leading-8">
+                            We’re not actively hiring right now. NovaHelm is focused on shipping Unreal Engine projects and tightening the studio workflow.
                         </p>
-                        <p>
-                            We operate with one core belief: <em className="text-white">own your stack or the stack owns you.</em> If that aligns with your workflow,
-                            let’s build.
+                        <p className="text-lg leading-8">
+                            If you’re interested in joining later, internship opportunities may open up first. We’ll post updates here when that changes.
                         </p>
                     </div>
 
-                    {/* Open Roles */}
-                    <div className="mb-16">
-                        <h2 className="text-2xl font-semibold text-white mb-6">Open Roles</h2>
-                        <ul className="space-y-6 text-gray-300">
+                    <div className="rounded-3xl border border-white/10 bg-black/20 p-8 backdrop-blur-xl">
+                        <h2 className="mb-6 text-2xl font-semibold text-white">What we’d look for later</h2>
+                        <ul className="space-y-5">
                             <li>
-                                <h3 className="text-xl text-white font-medium">C++ Systems Programmer</h3>
-                                <p className="text-sm max-w-2xl">
-                                    Build engine-level modules, performance-critical runtime systems, and low-level tooling. Experience with SDL, Raylib, or SFML preferred.
-                                </p>
-                            </li>
-                            <li>
-                                <h3 className="text-xl text-white font-medium">Graphics Engineer (OpenGL/Unreal)</h3>
-                                <p className="text-sm max-w-2xl">
-                                    Work on rendering pipelines, shaders, and performance tuning across GL and engine-native rendering backends.
-                                </p>
-                            </li>
-                            <li>
-                                <h3 className="text-xl text-white font-medium">Unity Gameplay Developer</h3>
-                                <p className="text-sm max-w-2xl">
-                                    Focus on systems architecture and core mechanics. ECS experience or burst knowledge is a plus.
-                                </p>
+                                <h3 className="text-xl font-medium text-white">Unreal Engine Intern</h3>
+                                <p className="text-sm leading-7 text-gray-300">Help with gameplay systems, tools, or content workflows while learning how the studio ships games.</p>
                             </li>
                         </ul>
                     </div>
+                </div>
 
-                    {/* Contact */}
-                    <div className="max-w-2xl text-lg">
-                        <p>
-                            To apply, email your GitHub, past work, or a short write-up to
-                            <a
-                                href="mailto:novahelmstudios@gmail.com"
-                                className="bg-gradient-to-r from-emerald-400 to-orange-400 text-transparent bg-clip-text ml-1"
-                            >
-                                novahelmstudios@gmail.com
-                            </a>
-                            .
-                        </p>
-                        <p className="mt-4">
-                            No resumes. Just show us what you’ve built.
-                        </p>
-                    </div>
+                <div className="mt-8 rounded-3xl border border-white/10 bg-black/25 p-8 backdrop-blur-xl text-lg leading-8">
+                    <p>
+                        To apply, email your GitHub, past work, or a short write-up to
+                        <a href="mailto:novahelmstudios@gmail.com" className="ml-1 bg-gradient-to-r from-emerald-400 to-orange-400 text-transparent bg-clip-text underline-offset-4 hover:underline focus-visible:underline">novahelmstudios@gmail.com</a>.
+                    </p>
+                    <p className="mt-4">No resumes needed if you’re reaching out for future internship opportunities — just show us what you’ve built.</p>
                 </div>
             </div>
-        </>
+        </section>
     );
 }

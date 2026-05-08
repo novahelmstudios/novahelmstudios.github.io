@@ -1,22 +1,24 @@
+import Link from "next/link";
+
 export default function Project() {
     const projects = [
         {
             title: "Genesis",
             description: " modular C++ game engine built with OpenGL, GLFW, and FreeType. Designed for real-time rendering, input handling, and extensible game architecture",
             category: "Platformer",
-            link: "https://github.com/novahelmstudios/genesis"
+            link: "/projects/genesis"
         },
         {
             title: "BadBot",
             description: " A drone shooter made in Unreal Engine 5. Featuring enemy AI, homing missiles, and boss battles. A fast-paced action game with a focus on combat and exploration.",
             category: "Space Shooter",
-            link: "https://github.com/novahelmstudios/badbot"
+            link: "/projects/badbot"
         },
         {
-            title: "Evil Bela",
-            description: "Currently in development, Evil Bela is a narrative-driven psychological survival horror game. It features a gripping story, immersive atmosphere, and challenging gameplay.",
+            title: "Stillness Below",
+            description: "Under development. Stillness Below is a narrative-driven psychological survival horror game featuring a gripping story, immersive atmosphere, and challenging gameplay.",
             category: "Psychological Survival Horror",
-            link: "https://github.com/novahelmstudios/evilbela"
+            link: "/projects/stillness-below"
         }
     ];
 
@@ -58,14 +60,12 @@ export default function Project() {
                                         {/* Hover Overlay */}
                                         <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                             <div className="mt-4 pt-4 border-t border-slate-700/50">
-                                                <a
+                                                <Link
                                                     href={project.link}
-                                                    className="block text-sm font-medium bg-gradient-to-r from-emerald-400 to-orange-400 text-transparent bg-clip-text hover:from-emerald-300 hover:to-orange-300 transition-all duration-200"
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
+                                                    className="block text-sm font-medium bg-gradient-to-r from-emerald-400 to-orange-400 text-transparent bg-clip-text hover:from-emerald-300 hover:to-orange-300 focus-visible:from-emerald-300 focus-visible:to-orange-300 transition-all duration-200"
                                                 >
                                                     Learn More →
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -78,3 +78,8 @@ export default function Project() {
         </>
     );
 }
+
+export const metadata = {
+    title: 'Projects — Novahelm Studios',
+    description: 'Browse Novahelm Studios projects: engines, prototypes, and upcoming games in development.',
+};
