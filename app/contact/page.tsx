@@ -37,6 +37,6 @@ export default function ContactPage() {
 }
 
 export const metadata = {
-    title: 'Contact — Novahelm Studios',
-    description: 'Contact Novahelm Studios for inquiries, collaborations, or support. We are currently under development.',
+    title: 'Contact — NovaHelm Studios',
+    description: 'Contact NovaHelm Studios for inquiries, collaborations, or support. We are currently under development.',
 };

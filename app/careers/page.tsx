@@ -13,7 +13,7 @@ export default function Careers() {
                 <div className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr]">
                     <div className="rounded-3xl border border-white/10 bg-black/25 p-8 backdrop-blur-xl">
                         <p className="mb-4 text-lg leading-8">
-                            We’re not actively hiring right now. NovaHelm is focused on shipping Unreal Engine projects and tightening the studio workflow.
+                            We're not actively hiring right now. NovaHelm Studios is focused on shipping Unreal Engine projects and tightening the studio workflow.
                         </p>
                         <p className="text-lg leading-8">
                             If you’re interested in joining later, internship opportunities may open up first. We’ll post updates here when that changes.
