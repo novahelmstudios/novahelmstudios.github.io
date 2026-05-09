@@ -17,7 +17,7 @@ export default function Home() {
                             We make games that are easy to discover and hard to forget.
                         </h1>
                         <p className="max-w-3xl text-base sm:text-lg lg:text-2xl text-emerald-50/90 font-light leading-relaxed mb-8 sm:mb-10">
-                            Novahelm Studios creates immersive indie experiences with clear goals, strong atmosphere, and gameplay that respects your time.
+                            NovaHelm Studios creates immersive indie experiences with clear goals, strong atmosphere, and gameplay that respects your time.
                         </p>
 
                         <div className="flex flex-col gap-3 sm:flex-row sm:gap-4">
